@@ -1,1 +1,1 @@
-# Gage_RNASeq
+# Gage_RNASeq analysis pipeline.
