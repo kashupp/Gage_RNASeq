@@ -1,14 +1,14 @@
 #!/bin/bash
 
 #Path where fasta files are stored/saved.
-filepath="/crex/proj/snic2021-22-714/nobackup/BEA21P160_MK"
+filepath="/crex/proj/snicprojectnumber/nobackup/BEA21P160_MK"
 
 #Path where refernce genome is stored
-ref_gen_path="/crex/proj/snic2021-22-714/nobackup/labshare.cshl.edu/shares/gingeraslab/www-data/dobin/STAR/STARgenomes/Human/GRCh38_Ensembl99_sparseD3_sjdbOverhang99"
+ref_gen_path="/crex/proj/snicprojectnumber/nobackup/labshare.cshl.edu/shares/gingeraslab/www-data/dobin/STAR/STARgenomes/Human/GRCh38_Ensembl99_sparseD3_sjdbOverhang99"
 
 #Path for aligned files
 mkdir $filepath/alignedfiles
-aligned_path="/crex/proj/snic2021-22-714/nobackup/BEA21P160_MK/alignedfiles"
+aligned_path="/crex/proj/snicprojectnumber/nobackup/BEA21P160_MK/alignedfiles"
 
 : '
  unzip the files to because star does not work withcompressed files
