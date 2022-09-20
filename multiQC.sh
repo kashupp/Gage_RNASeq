@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #File path
-filepath="/crex/proj/snic2021-22-714/nobackup/BEA21P160_MK"
+filepath="/crex/proj/snicprojectnumber/nobackup/BEA21P160_MK"
 
 #FastQc file path
 fastqc_reports=$filepath/fastqcOut
