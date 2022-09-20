@@ -1,4 +1,8 @@
 # Gage_RNASeq analysis pipeline.
-Gage_RNASeq pipeline is a a bioinformatics pipeline that can be used to analyse RNA sequencing data obtained from organisms with a reference genome and annotation.
-RNASeq analysis pipeline using FASTQC, MultiQC, Trimmomatic,  STAR aligner and read couting with featureCounts.
-The file run_RNASeq.sh shows how to run these scripts in a single run using UPPMAX.
+Gage_RNASeq  is a  bioinformatics pipeline that is used to analyse RNA sequencing data obtained from genetically modified human cell lines. However, it can be used as general pupose RNASeq analysis pipeline. 
+
+This pipeline is written using shell scripting and it can be run on UPPMAX using a single file, see run_RNASeq.sh.
+
+This pipeline use FASTQC, MultiQC, Trimmomatic, STAR aligner and featureCOunts for counting reads in genes.
+
+Finally, differential gene expression analysis is performed using DSEq2 in R.
