@@ -5,4 +5,4 @@ This pipeline is written using shell scripting and it can be run on UPPMAX using
 
 This pipeline use FASTQC, MultiQC, Trimmomatic, STAR aligner and featureCounts for counting reads in genes.
 
-Finally, differential gene expression analysis is performed using DSEq2 in R.
+Finally, differential gene expression analysis is performed using DESeq2 in R.
