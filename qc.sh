@@ -7,7 +7,7 @@
  '
 
 #Path where fasta files are stored/saved.
-filepath="/crex/proj/snic2021-22-714/nobackup/BEA21P160_MK/"
+filepath="/crex/proj/snicprojectnumber/nobackup/BEA21P160_MK/"
 
 : '
  Loop on the R1 samples, extract the matching R2 and
