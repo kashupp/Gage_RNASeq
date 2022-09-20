@@ -1,5 +1,5 @@
 #!/bin/bash -l
-#SBATCH -A snic2021-22-714
+#SBATCH -A snicprojectnumber
 #SBATCH -p core
 #SBATCH -n 8
 #SBATCH -t 00-10:05:00
