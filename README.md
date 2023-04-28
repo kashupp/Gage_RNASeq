@@ -13,7 +13,7 @@ QC is performed by checking:
 
 1-  Correlation of most expressed genes(5%)
 
-2-3-  PCA and Clustering and if they are very similar
+2-3-  PCA and Clustering 
 
 4- Also check number of non zero genes and library size
 
